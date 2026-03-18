@@ -2,10 +2,15 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ETTC — English Teacher Training Center",
+  title: "ETTC",
   description:
     "We transform linguistic proficiency into globally recognized teaching authority. Elite pedagogy, immersive practicums, and unparalleled career architecture for the modern educator.",
   keywords: ["TEFL", "teacher training", "English teaching", "ETTC", "certification"],
+  icons: {
+    icon: "/ettc logo.svg",
+    shortcut: "/ettc logo.svg",
+    apple: "/ettc logo.svg",
+  },
   openGraph: {
     title: "ETTC — English Teacher Training Center",
     description: "Elite pedagogy. Immersive practicums. Unparalleled career architecture.",
